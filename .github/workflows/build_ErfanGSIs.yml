@@ -12,7 +12,7 @@ env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. RO
   ROM_NAME: Generic:miui_LIMEGlobal_V12.0.3.0-Android11
   ZIP_NAME: miui_LIMEGlobal_V12.0.3.0-Android11
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
-  TZ: Asia/Shanghai
+  TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
   SFDIRA2: cd /home/pfs/project/berkay-gsi/berkay
   SFUSER: ${{ secrets.SFUSER }}
