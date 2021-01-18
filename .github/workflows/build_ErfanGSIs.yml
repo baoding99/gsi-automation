@@ -8,9 +8,9 @@ on:
       types: [started]
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
-  ROM_URL: https://bigota.d.miui.com/V12.0.3.0.QJQMIXM/miui_LIMEGlobal_V12.0.3.0.QJQMIXM_a91dde7f3d_10.0.zip
-  ROM_NAME: Generic:miui_LIMEGlobal_V12.0.3.0
-  ZIP_NAME: miui_LIMEGlobal_V12.0.3.0
+  ROM_URL: https://bigota.d.miui.com/20.12.9/miui_CEPHEUS_20.12.9_720b503bcf_10.0.zipp
+  ROM_NAME: Generic:miui_12.9
+  ZIP_NAME: miui_12.9
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
