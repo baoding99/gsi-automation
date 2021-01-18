@@ -9,8 +9,8 @@ on:
     
 env:              #change ROM_URL,ROM_NAME,ZIP_NAME,ROMZIP_NAME respectivley. ROM_NAME is case sensitive 
   ROM_URL: https://bigota.d.miui.com/V12.0.3.0.QJQMIXM/miui_LIMEGlobal_V12.0.3.0.QJQMIXM_a91dde7f3d_10.0.zip
-  ROM_NAME: miui_LIMEGlobal_V12.0.3.0-Android11
-  ZIP_NAME: miui_LIMEGlobal_V12.0.3.0-Android11
+  ROM_NAME: Generic:miui_LIMEGlobal_V12.0.3.0
+  ZIP_NAME: miui_LIMEGlobal_V12.0.3.0
   SECRETS_PASSWORD: ${{ secrets.SFGPASS }}
   TZ: Middle-East/Kuwait
   SFDIRA1: cd /home/pfs/project/berkay-gsi/Bootleggers
